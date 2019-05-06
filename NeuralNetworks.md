@@ -1,9 +1,11 @@
 ## Introducción a las Redes Neuronales con Python y Keras
 ## Contenido
 - Introducción
-- Ejemplo de funcionamiento de un perceptrón
-- Implementación del perceptrón en Python
+- Modelado de datos
+- Creación del modelo de la red neuronal
+- Evaluación del modelo
 - Conclusiones
+- Referencias
 
 ### Introducción
 ¿Qué es una neurona artificial?
@@ -24,7 +26,7 @@ La comunicación entre neuronas se llama sinapsis la cual se da en la terminaci�
 Cuando el potencial de acción alcanza la terminación del axón, causa diminutas burbujas quimicas llamadas vesículas que descargan su contenido en el salto sináptico.
 
 ## Neurona Artificial
-En 1943 McCulloch & Pitts inspirandos en la neurona biológica desarrollarón un modelo artificial de una neurona. Esta idea fue retomada más tarde por Rosenblatt quien creó una estructura llamada perceptrón. El perceptrón es una estructura la cual posee una o varias entradas, una función de activación y una salida. Es la aproximación más cercana a una neurona biológica.
+En 1943 McColloch & Pitts inspirandos en la neurona biológica desarrollarón un modelo artificial de una neurona. Esta idea fue retomada más tarde por Rosenblatt quien creó una estructura llamada perceptrón. El perceptrón es una estructura la cual posee una o varias entradas, una función de activación y una salida. Es la aproximación más cercana a una neurona biológica.
 Las entradas del perecptrón actúan como las dendritas o señales de entrada hacia la neurona. La función de activación realiza el papel del soma que decide en que momento disparar esa señal eléctrica y la salida modela al axón que al activarse envía información hacia las neuronas con las que se conecta.
 
 ![NeuralP](/media/perceptron.png)
@@ -36,19 +38,7 @@ Entonces una red neuronal se compone de un conjunto de perceptrones interconecta
 ![RedNeuronal](/media/RedNeuronal.png)
 
 ## Ejemplo
-Para entender cómo funciona un perceptrón, a continuación realizaremos una ejemplificación, en la que le enseñaremos al percpetrón a responder a las entradas de una compuerta AND, en donde dados 2 valores de entrada 1 y 2 (input 1 y 2) nos dé un valor de salida esperado (output).
 
-La compuerta lógica AND realiza un producto booleano dadas dos entradas, la condición que debe cumplir la compuerta AND es definida por la siguiente tabla de verdad.
-
-| Entrada| Entrada | Salida |
-| ------ |---------| ------:|
-|   A    |    B    | Output |
-|   0    |    0    |   0    |
-|   0    |    0    |   0    |
-|   1    |    0    |   0    |
-|   1    |    1    |   1    |
-
-![Perceptron](/media/Perceptron.png)
 
 
 
