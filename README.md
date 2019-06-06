@@ -40,15 +40,56 @@ Para entender cómo funciona un perceptrón, a continuación realizaremos una ej
 
 La compuerta lógica AND realiza un producto booleano dadas dos entradas, la condición que debe cumplir la compuerta AND es definida por la siguiente tabla de verdad.
 
-| Entrada| Entrada | Salida |
-| ------ |---------| ------:|
-|   A    |    B    | Output |
-|   0    |    0    |   0    |
-|   0    |    0    |   0    |
-|   1    |    0    |   0    |
-|   1    |    1    |   1    |
+| Entrada A| Entrada B | Salida |
+| -------|-------------| ------:|
+|   0    |    0        |   0    |
+|   0    |    1        |   0    |
+|   1    |    0        |   0    |
+|   1    |    1        |   1    |
 
-![Perceptron](/media/Perceptron.png)
+## Flujo del funcionamiento
+![PerceptronE](/media/PerceptronE.png)
+
+#### Caso 1: Entrada 0, Entrada 0 ----> Salida 0
+1. Se toman 2 entradas Entrada 0, Entrada 0, el tercer parámetro denominado bias es un valor de sesgo que permite cambiar  o disparar la función de activación hacia la izq. o der. para garantizar un aprendizaje exitoso.
+2. Se generán los pesos aleatorios Wi1, Wi2 en el rango [0-1], Wi1=0.3, Wi2=0.7, Wib=0.5
+3. Se realiza la suma ponderada de las entradas por los pesos
+suma = ((0X0.3)+(0X0.7)) + (1X0.5)
+suma = (0 + 0 + 0.5)
+suma = 0.5
+4. Función de activación:
+1 si suma >= 0
+0 si suma <= 0
+Para nuestro caso obtuvimos una suma de 0.5 (de acuerdo con la condición de la función de aptitud) entonces nuestra salida es 0
+5. Salida: Obtuvimos una salida 0 y nuestra salida esperada es 0 esta condición se cumple, entonces pasariamos con los valores de las siguientes entradas
+
+#### Caso 2: Entrada 0, Entrada 1 ----> 0
+1. Se toman 2 entradas Entrada 0, Entrada 1, el tercer parámetro denominado bias es un valor de sesgo que permite cambiar  o disparar la función de activación hacia la izq. o der. para garantizar un aprendizaje exitoso.
+2. Se generán nuevos pesos aleatorios Wi1, Wi2 en el rango [0-1], Wi1=0.5, Wi2=0.1, Wib=0.9
+3. Se realiza la suma ponderada de las entradas por los pesos
+suma = ((0X0.5)+(1X0.1)) + (1X0.9)
+suma = (0 + 0.1 + 0.9)
+suma = 1
+4. Función de activación:
+1 si suma >= 0
+0 si suma <= 0
+Para nuestro caso obtuvimos una suma de 1 (de acuerdo con la condición de la función de aptitud) entonces nuestra salida es 1
+5. Salida: Obtuvimos una salida 1 y nuestra salida esperada es 0 esta condición no se cumple, entonces regresamos al paso 2 y repetimos el proceso
+
+##### Regresamos al paso 2
+2. Se generán nuevos pesos aleatorios Wi1, Wi2 en el rango [0-1], Wi1=0.1, Wi2=0.1, Wib=0.5
+3. Se realiza la suma ponderada de las entradas por los pesos
+suma = ((0X0.1)+(1X0.1)) + (1X0.5)
+suma = (0 + 0.1 + 0.5)
+suma = 0.6
+4. Función de activación:
+1 si suma >= 0
+0 si suma <= 0
+Para nuestro caso obtuvimos una suma de 0.6 (de acuerdo con la condición de la función de aptitud) entonces nuestra salida es 0
+5. Salida: Obtuvimos una salida 1 y nuestra salida esperada es 0 esta condición se cumple, entonces pasariamos con los valores de las siguientes entradas
+
+
+
 
 
 

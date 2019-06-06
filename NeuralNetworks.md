@@ -38,6 +38,7 @@ Entonces una red neuronal se compone de un conjunto de perceptrones interconecta
 ![RedNeuronal](/media/RedNeuronal.png)
 
 ## Ejemplo
+A continuación se muestra un ejemplo del funcionamiento de un Perceptron
 
 
 
