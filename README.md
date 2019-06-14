@@ -37,7 +37,7 @@ Entonces una red neuronal se compone de un conjunto de perceptrones interconecta
 ![RedNeuronal](/media/RedNeuronal.png)
 
 ## Ejemplo
-Para entender cómo funciona un perceptrón, a continuación realizaremos una ejemplificación, en la que le enseñaremos al percpetrón a responder a las entradas de una compuerta AND, en donde dados 2 valores de entrada 1 y 2 (input 1 y 2) nos dé un valor de salida esperado (output).
+Para entender cómo funciona un perceptrón, a continuación realizaremos una ejemplificación, en la que le enseñaremos al perceptrón a responder a las entradas de una compuerta AND, en donde dados 2 valores de entrada 1 y 2 (input 1 y 2) nos dé un valor de salida esperado (output).
 
 La compuerta lógica AND realiza un producto booleano dadas dos entradas, la condición que debe cumplir la compuerta AND es definida por la siguiente tabla de verdad.
 
