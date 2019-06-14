@@ -1,16 +1,18 @@
 ## Introducción a las Redes Neuronales
 ## Contenido
 - Introducción
-- Ejemplo de funcionamiento de un perceptrón
-- Conclusiones
+- Semejanzas entre una neurona biológica y un perceptrón
+- ¿Qué es una red neuronal?
+- Ejemplo del funcionamiento de un perceptrón
+- Referencias
 
 ### Introducción
 ¿Qué es una neurona artificial?
 Dentro del campo de la Inteligencia Artificial son métodos de aprendizaje autómatico cuya finalidad es imitar los procesos biológicos de las redes neuronales de los organismos vivos(Orallo, Ferri, & Quintana, 2004).
 
-### Comparación de una neurona biológica y una neurona Artificial
+## Comparación de una neurona biológica y una neurona Artificial
 
-## Neurona Biológica
+### Neurona Biológica
 
 ![NeuralB](/media/neurona.gif)
 * Cuerpo Celular (Soma): Tiene como función principal sintetizar la mayoría de las proteínas que se encuentran en la neurona.
@@ -22,13 +24,13 @@ La comunicación entre neuronas se llama sinapsis la cual se da en la terminaci�
 
 Cuando el potencial de acción alcanza la terminación del axón, causa diminutas burbujas quimicas llamadas vesículas que descargan su contenido en el salto sináptico.
 
-## Neurona Artificial
-En 1943 McCulloch & Pitts inspirandos en la neurona biológica desarrollarón un modelo artificial de una neurona. Esta idea fue retomada más tarde por Rosenblatt quien creó una estructura llamada perceptrón. El perceptrón es una estructura la cual posee una o varias entradas, una función de activación y una salida. Es la aproximación más cercana a una neurona biológica.
+### Neurona Artificial
+En 1943 McCulloch & Pitts inspirandos en la neurona biológica desarrollarón un modelo artificial de una neurona. Esta idea fue retomada más tarde por Rosenblatt quien creó una estructura llamada perceptrón. El perceptrón es una estructura la cual poseé una o varias entradas, una función de activación y una salida. Es la aproximación más cercana a una neurona biológica.
 Las entradas del perecptrón actúan como las dendritas o señales de entrada hacia la neurona. La función de activación realiza el papel del soma que decide en que momento disparar esa señal eléctrica y la salida modela al axón que al activarse envía información hacia las neuronas con las que se conecta.
 
 ![NeuralP](/media/perceptron.png)
 
-Las entradas del percpetrón actúan como las dendritas o señales de entrada hacia la neurona. La función de activación simula el funcionamiento del soma decidiendo en que momento disparar esa señal eléctrica y la salida modela al axón, el cual sirve de entrada para una siguiente neurona conectada.
+¿Entonces qué es una red neuronal?
 
 Entonces una red neuronal se compone de un conjunto de perceptrones interconectados entre si, generando así una red, la cual su estructura puede volverse tan compleja como nosotros lo deseemos. La estructura más sencilla se comforma de tres capas, una capa de entrada, una capa oculta y una capa de salida.
 
