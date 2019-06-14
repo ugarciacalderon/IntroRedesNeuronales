@@ -99,8 +99,10 @@ Para nuestro caso obtuvimos una suma de 0.6 (de acuerdo con la condición de la 
 5. Salida: Obtuvimos una salida 0 y nuestra salida esperada es 0 esta condición se cumple, entonces pasariamos con los valores de las siguientes entradas
 
 Este proceso seria el mismo para los dos casos restantes, para fines prácticos resuleve los casos restantes, realizando el proceso antes visto.
-#### Caso 3: Entrada 1, Entrada 0 ----> 0
-#### Caso 3: Entrada 1, Entrada 1 ---->
+#### Caso 3: Entrada A (1), Entrada B (0) ----> Salida 0
+#### Caso 3: Entrada A (1), Entrada B (1) ----> Salida 1
+
+### Salidas obtenidas hasta el momento
 
 | Entrada A| Entrada B | Salida Esperada | Salida Generada |
 | ---------|-----------| --------------- | ---------------:|
