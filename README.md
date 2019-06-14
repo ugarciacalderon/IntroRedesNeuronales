@@ -30,7 +30,7 @@ Las entradas del perecptrón actúan como las dendritas o señales de entrada ha
 
 ![NeuralP](/media/perceptron.png)
 
-¿Entonces qué es una red neuronal?
+## ¿Entonces qué es una red neuronal?
 
 Entonces una red neuronal se compone de un conjunto de perceptrones interconectados entre si, generando así una red, la cual su estructura puede volverse tan compleja como nosotros lo deseemos. La estructura más sencilla se comforma de tres capas, una capa de entrada, una capa oculta y una capa de salida.
 
