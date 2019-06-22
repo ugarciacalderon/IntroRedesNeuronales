@@ -54,10 +54,14 @@ La compuerta lógica AND realiza un producto booleano dadas dos entradas, la con
 #### Caso 1: Entrada A (0), Entrada B (0) ----> Salida 0
 1. Se toman 2 entradas Entrada 0, Entrada 0, el tercer parámetro denominado bias es un valor de sesgo que permite cambiar  o disparar la función de activación hacia la izq. o der. para garantizar un aprendizaje exitoso.
 2. Se generán los pesos aleatorios Wi1, Wi2 en el rango [-1,1], Wi1=0.3, Wi2=0.7, Wib=0.5
-3. Se realiza la suma ponderada de las entradas por los pesos
+3. Se realiza la suma ponderada de las entradas por los pesos:
+
 suma = ((0X0.3)+(0X0.7)) + (1X0.5)
+
 suma = (0 + 0) + 0.5
+
 suma = 0.5
+
 4. Función de activación:
 
 1 si suma+bias >= 0
@@ -70,10 +74,14 @@ Para nuestro caso obtuvimos una suma de 0.5 (de acuerdo con la condición de la 
 #### Caso 2: Entrada A (0), Entrada B (1) ----> Salida 0
 1. Se toman 2 entradas Entrada 0, Entrada 1, el tercer parámetro denominado bias es un valor de sesgo que permite cambiar  o disparar la función de activación hacia la izq. o der,. para garantizar un aprendizaje exitoso.
 2. Se generán nuevos pesos aleatorios Wi1, Wi2 en el rango [-1,1], Wi1=0.5, Wi2=0.1, Wib=0.9
-3. Se realiza la suma ponderada de las entradas por los pesos
+3. Se realiza la suma ponderada de las entradas por los pesos:
+
 suma = ((0X0.5)+(1X0.1)) + (1X0.9)
+
 suma = (0 + 0.1) + 0.9
+
 suma = 1
+
 4. Función de activación:
 
 1 si suma+bias >= 0
@@ -81,14 +89,21 @@ suma = 1
 0 si suma+bias <= 0
 
 Para nuestro caso obtuvimos una suma de 1 (de acuerdo con la condición de la función de aptitud) entonces nuestra salida es 1
+
 5. Salida: Obtuvimos una salida 1 y nuestra salida esperada es 0 esta condición no se cumple, entonces regresamos al paso 2 y repetimos el proceso
 
 #### Regresamos al paso 2
+
 2. Se generán nuevos pesos aleatorios Wi1, Wi2 en el rango [-1,1], Wi1=0.1, Wi2=0.1, Wib=0.5
-3. Se realiza la suma ponderada de las entradas por los pesos
+
+3. Se realiza la suma ponderada de las entradas por los pesos:
+
 suma = ((0X0.1)+(1X0.1)) + (1X0.5)
+
 suma = (0 + 0.1) + 0.5
+
 suma = 0.6
+
 4. Función de activación:
 
 1 si suma+bias >= 0
@@ -99,6 +114,7 @@ Para nuestro caso obtuvimos una suma de 0.6 (de acuerdo con la condición de la 
 5. Salida: Obtuvimos una salida 0 y nuestra salida esperada es 0 esta condición se cumple, entonces pasariamos con los valores de las siguientes entradas
 
 Este proceso seria el mismo para los dos casos restantes, para fines prácticos resuleve los casos restantes, realizando el proceso antes visto.
+
 #### Caso 3: Entrada A (1), Entrada B (0) ----> Salida 0
 #### Caso 3: Entrada A (1), Entrada B (1) ----> Salida 1
 
