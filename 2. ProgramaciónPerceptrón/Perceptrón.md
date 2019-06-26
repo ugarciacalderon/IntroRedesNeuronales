@@ -1,4 +1,4 @@
-## Programación de un perceptrón en Python 3.6
+## Programación de un perceptrón en Python
 #### Requerimientos:
 - Editor de código (pycharm, jupyter notebook)
 - Python 3.6
