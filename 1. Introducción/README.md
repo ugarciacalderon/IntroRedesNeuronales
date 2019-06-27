@@ -10,25 +10,27 @@
 ¿Qué es una neurona artificial?
 Dentro del campo de la Inteligencia Artificial son métodos de aprendizaje autómatico cuya finalidad es imitar los procesos biológicos de las redes neuronales de los organismos vivos(Orallo, Ferri, & Quintana, 2004).
 
-## Comparación de una neurona biológica y una neurona Artificial
+## Antecedentes históricos
 
-### Neurona Biológica
+Un perceptrón es un modelo matemático que representa la aproximación de un modelo de una neurona biológica. Pero primero comencemos con una explicación simplificada (sin ser expertos) de una neurona biológica. Una neurona biológica es una célula nerviosa eléctricamente excitables e interconectadas dentro del cerebro que procesan y transmiten información a través de señales eléctricas y químicas. Estas neuronas están conectadas entre sí para formar una red neuronal en el cerebro. Una neurona se compone de tres partes: cuerpo celular, las dendritas y el axón.
+
+### Modelo de una Neurona Biológica
 
 ![NeuralB](/media/neurona.gif)
-* Cuerpo Celular (Soma): Tiene como función principal sintetizar la mayoría de las proteínas que se encuentran en la neurona.
-* Núcleo: Contiene el material genético en forma de cromosomas
+* Cuerpo Celular (Soma): Es la parte más importante de la neurona ya que realiza el proceso químico de las proteinas.
 * Dendritas: Son prolongaciones protoplasmáticas, cortas y ramificadas que surgen desde el cuerpo celular. Estas prolongaciones se sencargan de recibir y procesar los impulsos que llegan de otras neuronas para transmitirlas al cuerpo celular.
-* Axón: Se trata de una prolongación caracterizada por ser única y larga, pues en algunas ocasiones tiende a medir 1 metro de longitud. Esta prolongación se origina en el área del cuerpo celular. Tiene como función extraer el impulso resultante desde cuerpo celular y transmitirlo a otra zona del sistema
+* Axón: Se trata de una prolongación caracterizada por ser única y larga, pues en algunas ocasiones tiende a medir 1 metro de longitud. Esta prolongación se origina en el área del cuerpo celular. Tiene como función extraer el impulso resultante desde cuerpo celular y transmitirlo a otra neurona.
 
-La comunicación entre neuronas se llama sinapsis la cual se da en la terminación del axón y las dendritas de la siguiente neurona liberadno una sustancia, esta cambia el balance de iones (átomos cargados electrónicamente) entre el interior y el exterior de la membrana celular. Cuando este cambio alcanza un nivel umbral, este efecto se expande a través de la mebrana de la célula hasta el axón. Cuando alzanza al axón, se inicia un potencial de acción.
+La comunicación entre neuronas se conoce como sinapsis, la cual se da en la terminación del axón y las dendritas de la siguiente neurona liberando una sustancia, esta cambia el balance de iones (átomos cargados electrónicamente) entre el interior y el exterior de la membrana celular. Cuando este cambio alcanza un nivel umbral, este efecto se expande a través de la mebrana de la célula hasta el axón. Cuando alzanza al axón, se inicia un potencial de acción.
 
 Cuando el potencial de acción alcanza la terminación del axón, causa diminutas burbujas quimicas llamadas vesículas que descargan su contenido en el salto sináptico.
 
-### Neurona Artificial
+### Modelo de una Neurona Artificial
+
+![NeuralP](/media/perceptron.png)
 En 1943 McCulloch & Pitts inspirandos en la neurona biológica desarrollarón un modelo artificial de una neurona. Esta idea fue retomada más tarde por Rosenblatt quien creó una estructura llamada perceptrón. El perceptrón es una estructura la cual poseé una o varias entradas, una función de activación y una salida. Es la aproximación más cercana a una neurona biológica.
 Las entradas del perecptrón actúan como las dendritas o señales de entrada hacia la neurona. La función de activación realiza el papel del soma que decide en que momento disparar esa señal eléctrica y la salida modela al axón que al activarse envía información hacia las neuronas con las que se conecta.
 
-![NeuralP](/media/perceptron.png)
 
 ## ¿Entonces qué es una red neuronal?
 
