@@ -201,8 +201,8 @@ Este proceso seria el mismo para los dos casos restantes, para fines prácticos 
 <div class=text-justify>
 
 ### Dudas, Comentarios, Críticas constructivas
-Twitter: @ugarciacal
-Facebook: Ulises
+Twitter: [@ugarciacal](https://twitter.com/ugarciacal)
+Facebook: [UlisesGC](https://www.facebook.com/ulises.garciac)
 
 # Referencias
 - Orallo, J. H., Ferri, C. R., & Quintana, M. J. R. (2004). Introducción a la Minería de Datos.
