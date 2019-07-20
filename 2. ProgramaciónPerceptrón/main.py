@@ -11,5 +11,5 @@ if __name__ == '__main__':
 
     outputs = [0,0,0,1]
 
-    perceptron = Perceptron()
-    perceptron.Funcionamiento(inputs, outputs)
+    perceptron = Perceptron(inputs, outputs)
+    perceptron.Entrenamiento()
