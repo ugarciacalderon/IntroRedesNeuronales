@@ -12,4 +12,4 @@ if __name__ == '__main__':
     outputs = [0,0,0,1]
 
     perceptron = Perceptron(inputs, outputs)
-    perceptron.Entrenamiento()
+    perceptron.Fit()
